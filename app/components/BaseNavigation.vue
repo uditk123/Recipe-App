@@ -9,10 +9,13 @@
       </a>
       <ul class="flex gap-6 ml-auto text-xl font-bold capitalize">
         <li>
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <a href="/about">About</a>
+            <NuxtLink to="/about">About</NuxtLink>
+        </li>
+        <li>
+            <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
       </ul>
     </nav>
