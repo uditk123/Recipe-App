@@ -7,6 +7,7 @@
     <div>
          <BaseNavigation />  <!-- This is the Navigation component that will be displayed on every page that uses this default layout. -->
         <slot />  <!-- This slot is used to render the content of the page that uses this layout. It acts as a placeholder for the page's content. -->
+        <Footer />
     </div>
  </template>
  

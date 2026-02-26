@@ -9,7 +9,9 @@
 
 <template>
   <div class="font-Montserrat text-dire-wolf">
-    <BaseNavigation />
-    <NuxtPage />
+    <!-- Wrapping our  application in a default layout -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
