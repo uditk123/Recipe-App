@@ -7,6 +7,7 @@
   </div>
 </template> -->
 
+
 <template>
   <div class="font-Montserrat text-dire-wolf">
     <!-- Wrapping our  application in a default layout -->
