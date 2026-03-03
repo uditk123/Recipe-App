@@ -1,0 +1,76 @@
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Async Await in JavaScript",
+      "slug": "understanding-async-await-javascript",
+      "content": "Async/Await makes handling asynchronous operations easier and more readable compared to promises.",
+      "author": {
+        "id": 101,
+        "name": "Udit Kumar",
+        "email": "udit@example.com"
+      },
+      "tags": ["JavaScript", "Async", "Backend"],
+      "createdAt": "2026-03-01T10:30:00Z",
+      "updatedAt": "2026-03-01T12:00:00Z",
+      "likes": 120,
+      "isPublished": true,
+      "comments": [
+        {
+          "id": 1001,
+          "user": "Rahul Sharma",
+          "message": "Great explanation! Very helpful.",
+          "createdAt": "2026-03-01T11:00:00Z"
+        },
+        {
+          "id": 1002,
+          "user": "Anjali Verma",
+          "message": "Can you also explain error handling with try/catch?",
+          "createdAt": "2026-03-01T11:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Node.js",
+      "slug": "getting-started-with-nodejs",
+      "content": "Node.js allows you to run JavaScript on the server side and build scalable backend applications.",
+      "author": {
+        "id": 102,
+        "name": "Amit Singh",
+        "email": "amit@example.com"
+      },
+      "tags": ["Node.js", "Backend", "API"],
+      "createdAt": "2026-02-25T09:00:00Z",
+      "updatedAt": "2026-02-26T08:45:00Z",
+      "likes": 85,
+      "isPublished": true,
+      "comments": [
+        {
+          "id": 1003,
+          "user": "Priya Patel",
+          "message": "Very beginner friendly post!",
+          "createdAt": "2026-02-25T10:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "REST vs GraphQL: Which One to Choose?",
+      "slug": "rest-vs-graphql",
+      "content": "REST and GraphQL are both popular API architectures. Choosing the right one depends on your project requirements.",
+      "author": {
+        "id": 103,
+        "name": "Sneha Kapoor",
+        "email": "sneha@example.com"
+      },
+      "tags": ["API", "REST", "GraphQL"],
+      "createdAt": "2026-02-20T14:10:00Z",
+      "updatedAt": "2026-02-21T10:00:00Z",
+      "likes": 150,
+      "isPublished": false,
+      "comments": []
+    }
+  ]
+}
